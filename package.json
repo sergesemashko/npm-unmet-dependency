@@ -1,0 +1,24 @@
+{
+  "name": "npm-unmet-dependency",
+  "version": "1.0.0",
+  "description": "custom module to reproduce unmet dependencies issue when several version of the same package is used with npm 3.4.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergesemashko/npm-unmet-dependency.git"
+  },
+  "author": "sergesemashko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sergesemashko/npm-unmet-dependency/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-phantomas": "~0.12.0",
+    "npm-test-package": "sergesemashko/npm-test-package"
+  },
+  "homepage": "https://github.com/sergesemashko/npm-unmet-dependency#readme"
+}
